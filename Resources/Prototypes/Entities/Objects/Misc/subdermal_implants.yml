@@ -202,6 +202,19 @@
         components:
         - HumanoidAppearance # syndies cant turn hamlet into a human
 
+-type: entity
+parent: BaseSubdermalImplant
+id: SkullgunImplant
+name: Skullgun implant
+description: This implant is a concealed Hermann-451 skullgun.
+noSpawn: true
+components
+  -type: SubdermalImplant
+  implantAction: 
+  whitelist:
+    components:
+    - HumanoidAppearance # Need a skull to put the gun in
+
 #Nuclear Operative/Special Exclusive implants
 
 - type: entity

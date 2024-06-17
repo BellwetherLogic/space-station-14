@@ -208,6 +208,14 @@
     - type: Implanter
       implant: DnaScramblerImplant
 
+- type: entity
+  id: SkullgunImplanter
+  name: Skullgun Implanter
+  parent: BaseImplantOnlyImplanterSyndi
+  components:
+    - type: Implanter
+      implant: SkullgunImplant
+
 #Nuclear Operative/Special implanters
 
 - type: entity
